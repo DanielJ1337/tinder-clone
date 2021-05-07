@@ -1,7 +1,26 @@
 .chats {
+  align-items: center;
   display: flex;
+  height: 4.375rem;
+  justify-content: space-between;
+  max-width: 465px;
+  margin: auto;
+  padding: 1rem;
 }
 
 .chats__image {
-  float: left;
+  justify-self: center;
+}
+
+.chats__details {
+  flex: 1;
+  padding-left: 1.5rem;
+}
+
+.chats__message {
+  color: grey;
+}
+
+.chats__time {
+  color: grey;
 }

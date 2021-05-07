@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import { Chats } from "./components/Chats";
 
 import { TinderCards } from "./components/TinderCard";
+import { SingleChatScreen } from "./components/SingleChatScreen";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -14,6 +15,10 @@ function App() {
 
       <Router>
         <Switch>
+          <Route path="/chat/:person">
+            <Header backButton="/chat" />
+            <SingleChatScreen />
+          </Route>
           <Route path="/chat">
             <Header backButton="/" />
             <Chats />

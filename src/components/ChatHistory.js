@@ -14,19 +14,16 @@ export const chatHistory = [
       "https://www.rollingstone.de/wp-content/uploads/2020/03/05/09/black-widow-scarlett-johansson.jpg",
   },
   {
-    name: "Thor Odin's Son",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptates.",
-    timestamp: "25 minutes ago",
-    image:
-      "https://static.wikia.nocookie.net/avengers/images/4/48/Thor_Gladiator.jpg/revision/latest/top-crop/width/360/height/360?cb=20171105082329&path-prefix=de",
+    name: "Hulk",
+    message: "Hulk smash!!",
+    timestamp: "15 minutes ago",
+    image: "https://uproxx.com/wp-content/uploads/2019/02/hulk-3.jpg",
   },
   {
     name: "Thor Odin's Son",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eius quisquam obcaecati esse tempora blanditiis. Soluta, modi.",
+    message: "Want some beer, mate?",
     timestamp: "25 minutes ago",
     image:
-      "https://static.wikia.nocookie.net/avengers/images/4/48/Thor_Gladiator.jpg/revision/latest/top-crop/width/360/height/360?cb=20171105082329&path-prefix=de",
+      "https://marvel-news.de/wordpress/wp-content/uploads/2017/04/thorragnarokteaser-768x402.png",
   },
 ];
