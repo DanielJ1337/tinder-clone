@@ -1,0 +1,10 @@
+.header__container {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__icon {
+  height: 30px;
+  object-fit: contain;
+}

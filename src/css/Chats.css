@@ -1,0 +1,7 @@
+.chats {
+  display: flex;
+}
+
+.chats__image {
+  float: left;
+}
